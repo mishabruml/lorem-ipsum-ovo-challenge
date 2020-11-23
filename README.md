@@ -1,4 +1,16 @@
-# README
+# Installation
+
+`npm i`
+
+# Tests
+
+`npm test`
+
+# Usage
+
+`npm start`
+
+# Ovo Lorem Ipsum Challenge
 You are given the following text:
 
 
