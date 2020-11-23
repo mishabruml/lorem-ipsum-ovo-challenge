@@ -1,5 +1,5 @@
 {
-  "name": "ts-node-starter",
+  "name": "lorem-ipsum-ovo-challenge",
   "engines": {
     "node": "^12.12",
     "npm": "^6.11.3"
@@ -10,7 +10,8 @@
   "license": "ISC",
   "scripts": {
     "lint": "eslint './**/*.ts'",
-    "test": "npm run lint && jest --coverage --verbose"
+    "test": "npm run lint && jest --coverage --verbose",
+    "start": "npx ts-node src/lorem-ipsum/index.ts"
   },
   "devDependencies": {
     "@types/jest": "^26.0.15",
