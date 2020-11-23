@@ -6,6 +6,9 @@ export type Words = Word[]
 export type Sentence = string
 export type Sentences = Sentence[]
 
+export type ParsedSentence = Words
+export type ParsedSentences = ParsedSentence[]
+
 export type Phrase = Word
 export type Phrases = Word[]
 
@@ -24,4 +27,8 @@ export interface TextStatistics {
   percentageUniqueWords: number
   averageWordsPerSentence: number
   mostThreeFrequentPhrases: Phrases[]
+  mostFiveFrequentWordsProminence: Array<{
+    word: Word
+    prominence: number
+  }>
 }
